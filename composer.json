@@ -1,0 +1,11 @@
+{
+    "name": "win/task1",
+    "description": "Mongodb integration project",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "mongodb/mongodb": "^1.19",
+        "predis/predis": "^2.2"
+    }
+}

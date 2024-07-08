@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+$bg-color: black;
+$font-color: white;
+$gradient-bg: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: 'Poppins', sans-serif;
+  color: $font-color;
+}
+
+form {
+  border-radius: 20px;
+  margin-top: 15px !important;
+  background-color: $bg-color !important;
+  padding: 50px;
+  width: 80%;
+  color: $font-color;
+}
+
+.btn-primary {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background: $gradient-bg;
+  margin-top: 20px;
+}
+
+.black {
+  background-color: $bg-color;
+}
+
+.form-control {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.42);
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+}
+
+h4 {
+  font-size: 2rem !important;
+  font-weight: 700;
+}
+
+.form-label {
+  font-weight: 800 !important;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  color: #000;
+}
+
+.nav {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.navbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 5em;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.content {
+  padding-left: 10%;
+}
+
+.para {
+  line-height: 2;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $font-color;
+}
+
+a:hover {
+  color: #d710e9; /* Color on hover (tomato) */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+.about-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px; /* Space above the About section */
+  margin-bottom: 50px; /* Space below the About section */
+}
+.about-section h2 {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-section p {
+  color: #666;
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: justify;
+}
