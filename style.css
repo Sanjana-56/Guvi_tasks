@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+form {
+  border-radius: 20px;
+  margin-top: 15px !important;
+  background-color: black !important;
+  padding: 50px;
+  width: 80%;
+  color: white;
+}
+
+.btn-primary {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(75, 14, 154) 35%, rgb(0, 212, 255) 100%);
+  margin-top: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.form-control {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-bottom-color: 1px solid rgba(255, 255, 255, 0.42);
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+}
+
+.form-control[readonly] {
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+h4 {
+  font-size: 2rem !important;
+  font-weight: 700;
+}
+
+.form-label {
+  font-weight: 800 !important;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  color: white;
+}
+
+.nav {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.navbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 5em;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+.content {
+  padding-left: 10%;
+}
+
+.para {
+  line-height: 2;
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #510158; /* Color on hover (tomato) */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/*# sourceMappingURL=style.css.map */
